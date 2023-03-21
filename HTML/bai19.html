@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>baitap18</title>
+    <style>
+        nav {
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 50%;
+            background-color: black;
+        }
+        li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 20px;
+            font-size:25px
+        }
+        a:link {
+        
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+        
+            color: lightgreen;
+            text-decoration: none;
+        }
+        li > ul{
+            display: none }
+        li:hover ul {
+            display: block; position: absolute;
+            left:200px;
+            background-color:gainsboro;
+            margin:0;
+        
+        }
+        
+        li:hover ul li a:link{
+            display: block;
+            margin-left:-40px;
+        
+        }
+        
+        </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Introdution >></a></li>
+            <li><a href="#">Portfolio >></a>
+            <ul>
+         <li><a href="#">Photography</a></li>
+         <li><a href="#">Web & User Interface Design</a></li>
+         <li><a href="#">lllustration</a></li>
+            </ul>
+        </li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
